@@ -1,1 +1,1 @@
-# Bisection-k-medoids
+# Bisecting-k-medoids
