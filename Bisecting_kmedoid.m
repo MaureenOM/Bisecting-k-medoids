@@ -2,6 +2,9 @@ function [clustInd,clustCent]=Bisecting_kmedoid(data,k)
 %Similar to bisecting k-means but instead of using average point as
 %centroid use member of the cluster as centroid. 
 
+%Written by: Maureen Murage
+
+
 %Algorithm:
 % 1. Start with all data in one cluster
 % 2. Bisect the cluster into two clusters
@@ -55,5 +58,5 @@ end
 
 clustInd=ind;
 clustCent=cent;
-        
+end
         
